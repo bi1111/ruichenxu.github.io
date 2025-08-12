@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page.title }} • {{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="icon" href="/assets/img/favicon.png">
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <aside class="sidebar">
+      <div class="site-title"><a href="/">{{ site.title }}</a></div>
+      <nav>
+        <ul>
+          {% for item in site.nav %}
+          <li><a href="{{ item.url }}" class="{% if page.url == item.url %}active{% endif %}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+      <div class="social">
+        <a href="{{ site.social.scholar }}">Google Scholar</a> ·
+        <a href="{{ site.social.github }}">GitHub</a> ·
+        <a href="{{ site.social.linkedin }}">LinkedIn</a>
+      </div>
+      <footer>© {{ "now" | date: "%Y" }} {{ site.title }}</footer>
+    </aside>
+
+    <main class="content">
+      {{ content }}
+    </main>
+  </div>
+</body>
+</html>

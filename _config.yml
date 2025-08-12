@@ -1,0 +1,29 @@
+lang: zh-CN
+url: https://yourname.github.io
+baseurl: ""
+title: Ruichen Xu
+subtitle: PhD Student / AI4Science Researcher
+email: YOUR_EMAIL@EXAMPLE.COM
+permalink: pretty
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+plugins: []
+nav:
+  - { title: "Home", url: "/" }
+  - { title: "Bio", url: "/bio/" }
+  - { title: "Group", url: "/group/" }
+  - { title: "Topics", url: "/topics/" }
+  - { title: "Papers", url: "/papers/" }
+  - { title: "Prospective Students", url: "/prospective/" }
+  - { title: "Courses", url: "/courses/" }
+  - { title: "Recent", url: "/recent/" }
+social:
+  scholar: https://scholar.google.com/...
+  github: https://github.com/yourusername
+  linkedin: https://www.linkedin.com/in/yourid
+collections:
+  news:
+    output: true
+    permalink: /news/:name/
