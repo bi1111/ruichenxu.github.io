@@ -1,9 +1,9 @@
 lang: zh-CN
-url: https://yourname.github.io
+url: https://bi1111.github.io/ruichenxu.github.io/
 baseurl: ""
 title: Ruichen Xu
-subtitle: PhD Student / AI4Science Researcher
-email: YOUR_EMAIL@EXAMPLE.COM
+subtitle: PhD Candidate / AI4Science Researcher
+email: ruichen.xu@stonybrook.edu
 permalink: pretty
 markdown: kramdown
 kramdown:
@@ -20,9 +20,10 @@ nav:
   - { title: "Courses", url: "/courses/" }
   - { title: "Recent", url: "/recent/" }
 social:
-  scholar: https://scholar.google.com/...
-  github: https://github.com/yourusername
-  linkedin: https://www.linkedin.com/in/yourid
+  scholar: https://scholar.google.com/citations?user=IBXYwoQAAAAJ
+  github: https://github.com/bi1111
+  linkedin: https://www.linkedin.com/in/%E7%91%9E%E8%BE%B0-%E5%BE%90-b30b55197/
+  openreview: https://openreview.net/profile?id=%7ERuichen_Xu2
 collections:
   news:
     output: true
